@@ -31,7 +31,7 @@ var s3 = new AWS.S3({
 });
 
 // Get file stream
-const fileStream = fs.createReadStream('/Users/Timbr/Downloads/IMG_20231025_190618778.jpg');
+// const fileStream = fs.createReadStream('/Users/Timbr/Downloads/IMG_20231025_190618778.jpg');
 
 /*const s3Storage = multerS3({
     s3: s3, // s3 instance
