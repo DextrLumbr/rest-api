@@ -82,13 +82,13 @@ const BUCKET_NAME = 'mtp-announcements'
 const FILE_NAME_S3 = 'this-will-be-the-new-file-name-on-s3.jpg'
 const FILE_PERMISSION = 'public-read'
 
-const uploadParams = {
+/*const uploadParams = {
   Bucket: BUCKET_NAME,
   Key: FILE_NAME_S3,
   Body: fileStream,
   ContentType: 'image/jpeg',
   // ACL: FILE_PERMISSION
-};
+};*/
 
 function addByUrl(url,callback) {
   request({
