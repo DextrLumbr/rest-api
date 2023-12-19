@@ -1,4 +1,4 @@
-const config = require('./common/config/env.config.js');
+// const config = require('./common/config/env.config.js');
 require('dotenv').config()
 
 const express = require('express');
